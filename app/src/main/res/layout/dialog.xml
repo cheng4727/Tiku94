@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="700dp"
+        android:layout_height="400dp"
+        android:background="@drawable/biankuang5"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textSize="32sp"
+            android:textColor="#000"
+            android:text="车辆账户充值"
+            android:background="@drawable/biankuang4"
+            android:gravity="center_vertical"
+            android:paddingLeft="100dp"/>
+
+
+        <TextView
+            android:id="@+id/cph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textColor="#000"
+            android:text="车牌号："
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="120dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="30dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="26sp"
+                android:text="充值金额："
+                android:layout_marginLeft="80dp"/>
+
+
+            <EditText
+                android:id="@+id/jin_e"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:textSize="28sp"
+                android:textColor="#000"
+                android:hint="1-999"
+                android:singleLine="true"
+                android:inputType="number"
+                android:maxLength="3"
+                android:background="@drawable/biankuang6"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:textColor="#000"
+                android:text="元"
+                android:layout_marginLeft="5dp"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="30dp">
+
+            <Button
+                android:id="@+id/cz"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:textSize="28sp"
+                android:textColor="#000"
+                android:text="充值"/>
+
+            <Button
+                android:id="@+id/qx"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:textSize="28sp"
+                android:textColor="#000"
+                android:text="取消"
+                android:layout_marginLeft="30dp"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
